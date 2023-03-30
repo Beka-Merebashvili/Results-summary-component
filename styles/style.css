@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+/* styles for mobile */
+ body {
+    background-color: #ECF2FF;
+ }
+.main-container {
+    width: 376px;
+    margin: 0 auto;
+    background-color: #ffffff
+}
+.result {
+    width: 100%;
+    height: 356px;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 0px 0px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #CAC9FF;
+    padding: 24px 0 24px 0;
+}
+.circle {
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+.numebr-res {
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 72px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 25px;
+}
+.numebr-res2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #CAC9FF;
+    mix-blend-mode: normal;
+    opacity: 0.52;
+    text-align: center;
+} 
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+.comparison{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #CAC9FF;
+    width: 260px;
+    text-align: center;
+}
+
+/* summary styles */
+
+.summary {
+    width: 100%;
+    padding: 24px 0 30px 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.summary-heading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #303B59;
+    margin-right: 220px;
+}
+.graph {
+    width: 316px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.reaction {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+}
+.memory {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+.verbal {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+.visual {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+.mini-box{
+    display: flex;
+    justify-content:space-between;
+    width: 96px;
+}
+.mini-box img {
+    margin-left: 20px;
+}
+.mini-box p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 20px;
+}
+.reaction-heading {
+    color: #FF5555;
+}
+.memory-heading {
+    color: #FFB21E;
+}
+.verbal-heading{
+    color: #00BB8F;
+}
+.visual-heading {
+    color: #1125D6;
+}
+.result-box {
+    width: 64px;
+    height: 20px;
+    margin-right: 16px;
+}
+.result-box p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #303B59;
+}
+.result-box span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #303B59;
+    opacity: 0.5;
+}
+button {
+    width: 316px;
+    height: 56px;
+    background: #303B59;
+    border-radius: 128px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+}
+ 
+img {
+    object-fit: none;
+ }
+
+
+/* desktop styles */
+
+@media only screen and (min-width: 1440px) {
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .main-container {
+        width: 736px;
+        display: flex;
+        justify-content: center;
+        border-radius: 32px;
+    }
+    .result {
+       width: 368px;
+       height: 512px;
+    }
+    h3 {
+        font-size: 24px;
+        margin: 38px 0 12px 0 ;
+         
+    }
+    .circle {
+        width: 200px;
+        height: 200px;
+        padding-top: 30px;
+    }
+    .numebr-res {
+    font-size: 72px;
+    }
+    .numebr-res2 {
+       font-size: 18px;
+    }
+    h2 {
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+    .comparison {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .summary {
+        width: 368px;
+        height: 512px;
+        border-radius: 32px;
+    }
+    .summary-heading {
+        font-size: 24px;
+        margin-top: 12px;
+        margin-left: 50px;
+    }
+    .result {
+       width: 368px;
+       height: 512px;
+    }
+    .summary-heading {
+        font-size: 24px;
+        margin-bottom: 38px;
+    }
+    .graph {
+    width: 288px;
+    height: 56px;
+    } 
+    button {
+        width: 288px;
+        height: 76px;
+        margin : 40px 0 40px 0;
+    }
+    button:hover{
+        background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+        cursor: pointer;
+    }
+}
